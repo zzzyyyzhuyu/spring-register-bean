@@ -14,7 +14,7 @@ import org.springframework.core.type.AnnotationMetadata;
  * @date 2020/5/20
  * <p>
  *  只可以被Import(xxx.class)方式注册
- *  扫描自定义注解mapper的类，并进行注册
+ *  扫描自定义注解mapper的类，并进行注册，通过扫描器方式实现
  */
 public class MapperAutoConfiguredMyBatisRegistrar implements
         ImportBeanDefinitionRegistrar, ResourceLoaderAware, BeanFactoryAware {

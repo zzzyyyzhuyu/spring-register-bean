@@ -15,7 +15,7 @@ import java.util.Map;
  * @author zy
  * @date 2020/5/19
  * <p>
- *  注册bean（注册指定的某一个bean）
+ *  注册bean（注册指定的某一个bean）,通过扫描器方式实现
  */
 public class MyServiceImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {
 
